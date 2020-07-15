@@ -1,0 +1,4 @@
+set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
+
+URL:
+https://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces
