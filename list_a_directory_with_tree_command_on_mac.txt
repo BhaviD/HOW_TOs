@@ -1,0 +1,5 @@
+$ brew install tree
+$ tree -v --charset utf-8
+
+For more details, read the following article:
+https://rschu.me/list-a-directory-with-tree-command-on-mac-os-x-3b2d4c4a4827
