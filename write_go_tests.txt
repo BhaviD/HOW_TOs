@@ -1,0 +1,7 @@
+Read the answer:
+https://stackoverflow.com/questions/42102496/testing-a-grpc-service
+
+Steps to run the tests
+$ go test -v
+$ go test -coverprofile=coverage.out
+$ go tool cover -func=coverage.out
