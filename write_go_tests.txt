@@ -5,3 +5,4 @@ Steps to run the tests
 $ go test -v
 $ go test -coverprofile=coverage.out
 $ go tool cover -func=coverage.out
+$ go tool cover -html=coverage.out
