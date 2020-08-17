@@ -5,7 +5,7 @@ DELETING A BRANCH:
   - <local branch>
   $ git branch -d branch_name
   
- MERGING A BRANCH TO MASTER:
+MERGING A BRANCH TO MASTER:
   - switch to master branch in the local repo
   $ git checkout master
   - update local master with remote master
@@ -14,3 +14,13 @@ DELETING A BRANCH:
     and changes committed before moving further.
   $ git merge <branch_name>
   $ git push
+
+REVERT PUSHED COMMITS
+  # This will create three separate revert commits:
+  $ git revert a867b4af 25eee4ca 0766c053
+
+  # It also takes ranges. This will revert the last two commits:
+  $ git revert HEAD~2..HEAD
+
+  # Similarly, you can revert a range of commits using commit hashes (non inclusive of first hash):
+  $ git revert 0d1d7fc..a867b4a
