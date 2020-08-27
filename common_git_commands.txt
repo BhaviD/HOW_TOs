@@ -24,3 +24,6 @@ REVERT PUSHED COMMITS
 
   # Similarly, you can revert a range of commits using commit hashes (non inclusive of first hash):
   $ git revert 0d1d7fc..a867b4a
+
+GIT STASH
+https://www.atlassian.com/git/tutorials/saving-changes/git-stash
