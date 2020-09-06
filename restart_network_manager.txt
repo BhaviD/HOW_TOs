@@ -1,0 +1,5 @@
+(Ubuntu)
+$ sudo service network-manager restart
+
+Reference:
+https://itsfoss.com/restart-network-ubuntu/
