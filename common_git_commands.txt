@@ -27,3 +27,15 @@ REVERT PUSHED COMMITS
 
 GIT STASH
 https://www.atlassian.com/git/tutorials/saving-changes/git-stash
+
+RENAME A BRANCH
+  $ git checkout <old_name>
+  
+  # rename local branch
+  $ git branch -m <new_name>
+  
+  # Push the <new_name> local branch and reset the upstream branch:
+  $ git push origin -u <new_name>
+
+  # Delete the <old_name> remote branch:
+  $ git push origin --delete <old_name>
